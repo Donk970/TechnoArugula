@@ -16,5 +16,6 @@ The TechnoArugula project is a small high pressure aeroponics project built arou
 ## Putting it Together
 This is how I did it.
 ## What's next
-- Making better cabinets
-- 
+- Making better root chambers
+- Adding CO2 enrichment
+- Adding cooling
