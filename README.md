@@ -13,6 +13,8 @@ The TechnoArugula project is a small high pressure aeroponics project built arou
 - 1/2" PVC Pipe
 - 1/2" PVC Pipe Fittings
 - Pond liner
+## Here's what it looks like
+![Image of Something](https://github.com/Donk970/TechnoArugula/blob/master/Documentation/Images/IMG_1431.HEIC)
 ## Putting it Together
 This is how I did it.
 ## What's next
