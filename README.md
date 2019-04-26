@@ -14,7 +14,7 @@ Each harvest is about the same volume as one of the smaller tubs of greens you c
 |    concentration| 922        | ppm     | This is a little low. I'll go 90, 90, 45 next time     |
 |    pH           | 5.67       | ph      | This is on the low side but ok                         |
 | Light           |            |         |                                                        |
-|    PAR          | 375        | um/s/m2 | micro moles per second per square meter                |
+|    PAR          | 375        | µm/s/m2 | micro moles per second per square meter                |
 |    duration     | 16         | hours   | I'm running lights only when rates are cheap           |
 |    DLI          | 21         | m/d/m2  | moles per day per square meter                         |
 
