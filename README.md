@@ -1,5 +1,13 @@
 # TechnoArugula
 The TechnoArugula project is a small high pressure aeroponics project built around a simple Arduino micro controller board controlling a high pressure aeroponics pump system.  The objective of this project is to demonstrate the feasability of growing fresh salad greens in a DIY, controlled environment.
+___
+## Teaser, what I've been growing
+The first harvest of Arugula took about 4 weeks to grow.  The arugula was grown under 40 watt PAR LED lights for 16 hour days with a high pressure aeroponic nutrient solution being applied for 1 second every five minutes.  If you do the math the first harvest used 0.64 killowatt hours a day for 30 days totaling 19.2 killowatt hours.  At seven cents a killowatt hour the cost of electricity for the first harvest is about $1.35.  
+Each harvest is about the same volume as one of the smaller tubs of greens you can buy at the store for three or four dollars.  Each subsequent harvest takes about a week to grow for a total of about 35 cents. Pretty good deal.
+
+![Image of Something](Documentation/Images/IMG_4072.JPG)  
+*Fifth harvest of Arugula*
+___
 ## Materials
 - high pressure pump
 - high pressure accumulator
@@ -13,13 +21,6 @@ The TechnoArugula project is a small high pressure aeroponics project built arou
 - 1/2" PVC Pipe
 - 1/2" PVC Pipe Fittings
 - Pond liner
-___
-## Teaser, what I've been growing
-The first harvest of Arugula took about 4 weeks to grow.  The arugula was grown under 40 watt PAR LED lights for 16 hour days with a high pressure aeroponic nutrient solution being applied for 1 second every five minutes.  If you do the math the first harvest used 0.64 killowatt hours a day for 30 days totaling 19.2 killowatt hours.  At seven cents a killowatt hour the cost of electricity for the first harvest is about $1.35.  
-Each harvest is about the same volume as one of the smaller tubs of greens you can buy at the store for three or four dollars.  Each subsequent harvest takes about a week to grow for a total of about 35 cents. Pretty good deal.
-
-![Image of Something](Documentation/Images/IMG_4072.JPG)  
-*Fifth harvest of Arugula*
 ___
 ## Putting it Together
 This is how I built it.
