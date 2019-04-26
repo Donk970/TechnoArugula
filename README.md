@@ -7,7 +7,7 @@ Each harvest is about the same volume as one of the smaller tubs of greens you c
 
 | Variable        | Value      | Units   | Notes                                                  |
 | --------------- | :--------- | :------ | :----------------------------------------------------- |
-| Nutrients:      |            |         | This is the 3 part nutrients from                      |
+| Nutrients:      |            |         | This is the 3 part nutrients from General Hydroponics  |
 |    Flora Micro  | 60         | ml      |                                                        |
 |    Flora Grow   | 60         | ml      |                                                        |
 |    Flora Bloom  | 30         | ml      | Using the proportions for vegitative growth not bloom  |
