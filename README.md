@@ -18,7 +18,7 @@ The TechnoArugula project is a small high pressure aeroponics project built arou
 ## Teaser, what I've been growing
 
 
-![Image of Something](Documentation/Images/IMG_1431.JPG)
+![Image of Something](Documentation/Images/IMG_4072.JPG)
 
 *Fifth harvest of Arugula*
 
