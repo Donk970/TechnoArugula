@@ -21,9 +21,10 @@ ___
 - 1/2" PVC Pipe
 - 1/2" PVC Pipe Fittings
 - Pond liner
+- Plastic 2' x 4' x 6' shelving unit from Home Depot
 ___
 ## Putting it Together
-This is how I built it.
+The system is organized around a plastic shelving unit with about 20" between shelves. Lights are attached to the underside of a shelf and the plants are below the lights on a plastic lined box sitting on the next shelf down. The spray system is a set of 18 cheap misting nozzles connected by 1/4" high pressure tubing.
 ___
 ## The Code
 TechnoArugula is a simple Arduino ini file that makes use of a relatively simple state machine to allow asynchronous execution of on/off for each valve and for testing and controlling temperature and CO2 levels.  Basically each state is represented by a task function such as timerTask1StartFunction or timerTask1EndFunction.  Each state function checks to see if it's current state should end by checking "millis()" against an end time.  When the state has expired it executes it's task (eg turning a valve on or off), sets the next state function and the next end time for that state and returns.
