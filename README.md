@@ -6,6 +6,7 @@ The first harvest of Arugula took about 4 weeks to grow.  The arugula was grown 
 Each harvest is about the same volume as one of the smaller tubs of greens you can buy at the store for three or four dollars.  Each subsequent harvest takes about a week to grow for a total of about 35 cents. Pretty good deal.
 
 ##Nutrients:
+
 | Variable        | Value      | Units   | Notes                                                         |
 | --------------- | :--------- | :------ | :------------------------------------------------------------ |
 |    Flora Micro  | 60         | ml      |                                                               |
@@ -13,7 +14,9 @@ Each harvest is about the same volume as one of the smaller tubs of greens you c
 |    Flora Bloom  | 30         | ml      | Using the proportions for vegitative growth not bloom         |
 |    concentration| 922        | ppm     | This is a little low. I'll go 90, 90, 45 next time            |
 |    pH           | 5.67       | ph      | This is on the low side but ok                                |
-##Light:          |            |         |                                                               |
+
+##Light:
+
 | Variable        | Value      | Units   | Notes                                                         |
 | --------------- | :--------- | :------ | :------------------------------------------------------------ |
 |    PAR          | 375        | µm/s/m2 | micro moles per second per square meter                       |
