@@ -5,18 +5,20 @@ ___
 The first harvest of Arugula took about 4 weeks to grow.  The arugula was grown under 40 watt PAR LED lights for 16 hour days with a high pressure aeroponic nutrient solution being applied for 1 second every five minutes.  If you do the math the first harvest used 0.64 killowatt hours a day for 30 days totaling 19.2 killowatt hours.  At seven cents a killowatt hour the cost of electricity for the first harvest is about $1.35.  
 Each harvest is about the same volume as one of the smaller tubs of greens you can buy at the store for three or four dollars.  Each subsequent harvest takes about a week to grow for a total of about 35 cents. Pretty good deal.
 
-| Variable        | Value      | Units   | Notes                                                  |
-| --------------- | :--------- | :------ | :----------------------------------------------------- |
-| Nutrients:      |            |         | This is the 3 part nutrients from General Hydroponics  |
-|    Flora Micro  | 60         | ml      |                                                        |
-|    Flora Grow   | 60         | ml      |                                                        |
-|    Flora Bloom  | 30         | ml      | Using the proportions for vegitative growth not bloom  |
-|    concentration| 922        | ppm     | This is a little low. I'll go 90, 90, 45 next time     |
-|    pH           | 5.67       | ph      | This is on the low side but ok                         |
-| Light           |            |         |                                                        |
-|    PAR          | 375        | µm/s/m2 | micro moles per second per square meter                |
-|    duration     | 16         | hours   | I'm running lights only when rates are cheap           |
-|    DLI          | 21         | m/d/m2  | moles per day per square meter                         |
+##Nutrients:
+| Variable        | Value      | Units   | Notes                                                         |
+| --------------- | :--------- | :------ | :------------------------------------------------------------ |
+|    Flora Micro  | 60         | ml      |                                                               |
+|    Flora Grow   | 60         | ml      |                                                               |
+|    Flora Bloom  | 30         | ml      | Using the proportions for vegitative growth not bloom         |
+|    concentration| 922        | ppm     | This is a little low. I'll go 90, 90, 45 next time            |
+|    pH           | 5.67       | ph      | This is on the low side but ok                                |
+##Light:          |            |         |                                                               |
+| Variable        | Value      | Units   | Notes                                                         |
+| --------------- | :--------- | :------ | :------------------------------------------------------------ |
+|    PAR          | 375        | µm/s/m2 | micro moles per second per square meter                       |
+|    duration     | 16         | hours   | I'm running lights only when rates are cheap                  |
+|    DLI          | 21         | m/d/m2  | moles per day per square meter                                |
 
 ![Image of Something](Documentation/Images/IMG_4072.JPG)  
 *Fifth harvest of Arugula*
