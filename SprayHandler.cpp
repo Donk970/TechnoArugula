@@ -20,11 +20,21 @@ void SprayValve :: resetValve( bool triggerLongSpray = false ) {
   this->triggerLongSpray = triggerLongSpray;
 }
 
+void SprayValve :: startValve() {
+  this->dt = millis() + this->interval;
+}
+
+
+
 SprayValve* SprayValve :: perform() {
   (this->*state)();
   if( done ) {
-//    Serial.println("------------------   NEXT VALVE  -------------------");
-    
+    Serial.println("------------------   NEXT VALVE  -------------------");
+
+    // make sure next valves dt is correctly set
+    this->nextValve->startValve();
+
+    // return the next valve
     return this->nextValve;
   }
   return this;
@@ -33,7 +43,7 @@ SprayValve* SprayValve :: perform() {
 void SprayValve :: waitingToOpenValve() {
   this->done = false;
   if( millis() > this->dt ) {
-//    Serial.println("waitingToOpenValve -> openValve");
+    Serial.println("waitingToOpenValve -> openValve");
     this->state = &SprayValve::openValve;
   }
 }
@@ -43,7 +53,7 @@ void SprayValve :: openValve() {
   this->dt = this->triggerLongSpray ? millis() + 20000 : millis() + this->duration;
   this->triggerLongSpray = false;
   this->state = &SprayValve::valveOpen;
-//  Serial.println("openValve -> valveOpen");
+  Serial.println("openValve -> valveOpen");
   digitalWrite(this->pin, HIGH);
 }
 
@@ -51,7 +61,7 @@ void SprayValve :: valveOpen() {
   this->done = false;
   if( millis() > this->dt ) {
     this->dt = millis() + this->interval;
-//    Serial.println("valveOpen -> waitingToOpenValve");
+    Serial.println("valveOpen -> waitingToOpenValve");
     this->state = &SprayValve::waitingToOpenValve;
     digitalWrite(this->pin, LOW);
     this->done = true;
@@ -69,7 +79,7 @@ SprayHandler :: SprayHandler(uint8_t valveAPin, uint8_t valveBPin, uint8_t valve
   //construct the valve network
   this->valveA.pin = valveAPin;
   this->valveA.nextValve = &(this->valveB);
-  this->valveA.interval = 900000; //interval until valveA opens is 10 minutes
+  this->valveA.interval = 900000; //interval until valveA opens is 15 minutes
   
   this->valveB.pin = valveBPin;
   this->valveB.nextValve = &(this->valveC);

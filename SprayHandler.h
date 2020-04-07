@@ -14,6 +14,7 @@ class SprayValve {
     SprayValve *nextValve;
     void initialize();
     void resetValve( bool triggerLongSpray = false );
+    void startValve();
 
     //state functions
     bool done = false;

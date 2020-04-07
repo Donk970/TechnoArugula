@@ -20,8 +20,8 @@ SprayHandler sprayTask(VALVE_1_CONTROL_PIN, VALVE_2_CONTROL_PIN, VALVE_3_CONTROL
 
 // the setup function runs once when you press reset or power the board
 void setup() {
-//  Serial.begin(115200); //start a serial port to communicate with the computer
-//  Serial.println();
+  Serial.begin(115200); //start a serial port to communicate with the computer
+  Serial.println();
 
   sprayTask.initialize();
 }
