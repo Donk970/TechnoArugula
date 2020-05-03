@@ -5,7 +5,7 @@
 
 SprayValve :: SprayValve() {
   this->duration = 500;
-  this->interval = 60000; // default interval until next valve should be set is one minute
+  this->interval = 10000; // default interval until next valve should be set is ten seconds
 }
 
 void SprayValve :: initialize() {
@@ -79,7 +79,7 @@ SprayHandler :: SprayHandler(uint8_t valveAPin, uint8_t valveBPin, uint8_t valve
   //construct the valve network
   this->valveA.pin = valveAPin;
   this->valveA.nextValve = &(this->valveB);
-  this->valveA.interval = 900000; //interval until valveA opens is 15 minutes
+  this->valveA.interval = 480000; //interval until valveA opens is 15 minutes
   
   this->valveB.pin = valveBPin;
   this->valveB.nextValve = &(this->valveC);
