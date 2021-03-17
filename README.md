@@ -53,3 +53,4 @@ ___
 - Adding CO2 enrichment
 - Adding cooling
 - Adding external control of spray timing, cooling and CO2 enrichment.
+- Use arduino to sense pressure to turn pump on and off
